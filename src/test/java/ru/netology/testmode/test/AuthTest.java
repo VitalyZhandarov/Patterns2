@@ -7,9 +7,10 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static ru.netology.testmode.data.DataGenerator.Registration.getRegisteredUser;
-import static ru.netology.testmode.data.DataGenerator.getRandomLogin;
-import static ru.netology.testmode.data.DataGenerator.getRandomPassword;
+import static ru.netology.testmode.test.DataGenerator.Registration.getRegisteredUser;
+import static ru.netology.testmode.test.DataGenerator.getRandomLogin;
+import static ru.netology.testmode.test.DataGenerator.getRandomPassword;
+
 
 public class AuthTest {
 
