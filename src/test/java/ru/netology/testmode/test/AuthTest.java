@@ -8,6 +8,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static ru.netology.testmode.test.DataGenerator.Registration.getRegisteredUser;
+import static ru.netology.testmode.test.DataGenerator.Registration.getUser;
 import static ru.netology.testmode.test.DataGenerator.getRandomLogin;
 import static ru.netology.testmode.test.DataGenerator.getRandomPassword;
 
@@ -33,7 +34,7 @@ public class AuthTest {
     @Test
     @DisplayName("Should get error message if login with not registered user")
     void shouldGetErrorIfNotRegisteredUser() {
-        var notRegisteredUser = getRegisteredUser("active");
+        var notRegisteredUser = getUser("active");
         $("[data-test-id='login'] input").val(notRegisteredUser.getLogin());
         $("[data-test-id='password'] input").val(getRandomPassword());
         $("[data-test-id='action-login']").click();
