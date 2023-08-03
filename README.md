@@ -1,1 +1,1 @@
-# VitalyZhandarov Patterns2 [![Java CI with Gradle](https://github.com/VitalyZhandarov/Patterns2/actions/workflows/gradle.yml/badge.svg?event=push)](https://github.com/VitalyZhandarov/Patterns2/actions/workflows/gradle.yml)
+# VitalyZhandarov Patterns2 [![Java CI with Gradle](https://github.com/VitalyZhandarov/Patterns2/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/VitalyZhandarov/Patterns2/actions/workflows/gradle.yml)
